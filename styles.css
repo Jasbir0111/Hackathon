@@ -1,0 +1,338 @@
+body{
+  background-color: black;
+}
+.main{
+  position: absolute;
+  top: 50px;
+  margin-top: 50px;
+  height: 600px;
+  width: 1500px;
+  background-image: url("crackillusion.png");
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.05;
+}
+.CI{
+  width: 10%;
+  position: absolute;
+  right: 25px;
+  top: 17px;
+}
+.logo{
+  width: 5%;
+  position: absolute;
+  left: 30px;
+  top: 35px;
+}
+h1{
+  font-size: 40px;
+  font-family: 'Inconsolata', monospace;
+  padding-top: 50px;
+  padding-left: 7px;
+  color: white;
+  text-align: center;
+}
+.Round1 {
+    font-family: 'Signika', sans-serif;
+    position: relative;
+    top: 300px;
+    left: 500px;
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
+    color: #FFF;
+    background: #2B2B2B;/*button color*/
+    border-bottom: solid 2px #171717;/*daker color*/
+    border-radius: 4px;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+}
+
+.Round1:active {
+    border-bottom: solid 2px #2B2B2B;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+.Round1:hover{
+    background-color: #4C3F91
+}
+.Round2 {
+    font-family: 'Signika', sans-serif;
+    position: relative;
+    top: 300px;
+    left: 800px;
+    display: inline-block;
+    padding: 1em 2em;
+    text-decoration: none;
+    color: #FFF;
+    background: #2B2B2B;/*button color*/
+    border-bottom: solid 2px #171717;/*daker color*/
+    border-radius: 4px;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+}
+
+.Round2:active {
+    border-bottom: solid 2px #2B2B2B;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+.Round2:hover{
+    background-color: #4C3F91
+}
+.btnLeft {
+    font-family: 'Signika', sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    display: inline-block;
+    padding: 1em 3em;
+    text-decoration: none;
+    color: #FFF;
+    background: #2B2B2B;/*button color*/
+    border-bottom: solid 2px #171717;/*daker color*/
+    border-radius: 4px;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+}
+
+.btnLeft:active {
+    border-bottom: solid 2px #2B2B2B;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+.btnLeft:hover{
+    background-color: #4C3F91
+}
+#mb{
+  top: 280px;
+  left: 585px;
+}
+#cp{
+  top: 280px;
+}
+.btnRight {
+    font-family: 'Signika', sans-serif;
+    position: absolute;
+    top: 200px;
+    left: 780px;
+    display: inline-block;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    color: #FFF;
+    background: #2B2B2B;/*button color*/
+    border-bottom: solid 2px #171717;/*daker color*/
+    border-radius: 4px;
+    box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+    font-weight: bold;
+}
+.sp{
+  position: relative;
+  left: 316.11px;
+  bottom: 200px;
+  color: white;
+  font-family: 'Signika', sans-serif;
+  font-size: 50px;
+}
+.nuclearRECT{
+  padding-top: 300px;
+  margin: auto;
+  background-color: #2B2B2B;
+  height: 400px;
+  width: 800px;
+  border-top-left-radius: 1%;
+  border-bottom-left-radius : 1%;
+  border-top-right-radius:  1%;
+  border-bottom-right-radius:  1%;
+}
+.btnRight:active {
+    border-bottom: solid 2px #2B2B2B;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
+}
+.btnRight:hover{
+    background-color: #4C3F91
+}
+.qr{
+  position: absolute;
+  left: 580px;
+  top: 200px;
+  margin: auto;
+}
+#fo{
+  top: 300px;
+  left: -30px;
+}
+#hb{
+  top: 360px;
+  left: 567px;
+}
+#ws{
+  top: 360px;
+}
+#sa{
+  top: 440px;
+  left: 612.5px;
+}
+#mus{
+  left: -50px;
+  top: 1px;
+}
+#ve{
+  width: 30%
+}
+#Ven-span
+{
+  left: 271px;
+}
+#jc{
+  top: 440px;
+}
+#fo-ven{
+  left: -90px;
+  top: 250px;
+}
+#mus2{
+  left: 350px;
+  font-size: 15px;
+  top: 100px;
+}
+/* button code */
+.buttonDownload {
+	display: inline-block;
+	position: relative;
+  left: 350px;
+	padding: 10px 25px;
+
+	background-color: #333;
+	color: white;
+
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+	text-indent: 15px;
+}
+
+.buttonDownload:hover {
+	background-color: #4C3F91;
+	color: white;
+}
+
+.buttonDownload:before, .buttonDownload:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 15px;
+	top: 52%;
+}
+
+/* Download box shape  */
+.buttonDownload:before {
+	width: 10px;
+	height: 2px;
+	border-style: solid;
+	border-width: 0 2px 2px;
+}
+
+/* Download arrow shape */
+.buttonDownload:after {
+	width: 0;
+	height: 0;
+	margin-left: 3px;
+	margin-top: -7px;
+
+	border-style: solid;
+	border-width: 4px 4px 0 4px;
+	border-color: transparent;
+	border-top-color: inherit;
+
+	animation: downloadArrow 2s linear infinite;
+	animation-play-state: paused;
+}
+
+.buttonDownload:hover:before {
+	border-color: #4CC713;
+}
+
+.buttonDownload:hover:after {
+	border-top-color: #4CC713;
+	animation-play-state: running;
+}
+
+/* keyframes for the download icon anim */
+@keyframes downloadArrow {
+	/* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+	0% {
+		margin-top: -7px;
+		opacity: 1;
+	}
+
+	0.001% {
+		margin-top: -15px;
+		opacity: 0;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	100% {
+		margin-top: 0;
+		opacity: 0;
+	}
+}
+#cp0{
+  font-size: 20px;
+  top: 50px;
+  left: 25px;
+}
+#cp1{
+  font-size: 25px;
+  top: -100px;
+}
+#hus1{
+  left: 260px;
+  top: -270px;
+}
+.HBRECT{
+  text-align: center;
+  padding-top: 300px;
+  margin: auto;
+  background-color: #2B2B2B;
+  height: 400px;
+  width: 800px;
+  border-top-left-radius: 1%;
+  border-bottom-left-radius : 1%;
+  border-top-right-radius:  1%;
+  border-bottom-right-radius:  1%;
+}
+#hpsp{
+  font-size: 15px;
+}
+.hp{
+  position: relative;
+  bottom: 10px;
+  bottom: 200px;
+  color: white;
+  font-family: 'Signika', sans-serif;
+  font-size: 50px;
+  margin: auto;
+  background-color: #2B2B2B;
+  height: 400px;
+  width: 800px;
+  border-top-left-radius: 1%;
+  border-bottom-left-radius : 1%;
+  border-top-right-radius:  1%;
+  border-bottom-right-radius:  1%;
+}
+.fotWS{
+  color: white;
+  font-family: 'Signika', sans-serif;
+}
+#Btdn{
+  position: absolute;
+  left: 700px;
+}
+#mus10{
+  position: absolute;
+  top: 120px;
+  left: 610px;
+}
